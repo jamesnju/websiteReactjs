@@ -16,7 +16,9 @@ export const Footer = () => {
             </p>
             <div className="input-areas">
                 <form action="">
-                    <input type="email" name='email' placeholder='Your email'
+                    <input type="email"
+                    name='email' 
+                    placeholder='Your email'
                     className='footer-input' />
                     <Button buttonStyle='btn-outline'>Subscribe</Button>
                 </form>
@@ -25,6 +27,7 @@ export const Footer = () => {
         <div className="footer-links">
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
+                    <h1>Services</h1>
                     <Link to='/sign-up'> How it works</Link>
                     <Link to='/'> Testimonies</Link>
                     <Link to='/'> Careers</Link>
@@ -34,6 +37,7 @@ export const Footer = () => {
             </div>
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
+                    <h1>Contact</h1>
                     <Link to='/sign-up'> How it works</Link>
                     <Link to='/'> Testimonies</Link>
                     <Link to='/'> Careers</Link>
@@ -43,6 +47,7 @@ export const Footer = () => {
             </div>
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
+                    <h1>Products</h1>
                     <Link to='/sign-up'> How it works</Link>
                     <Link to='/'> Testimonies</Link>
                     <Link to='/'> Careers</Link>
@@ -52,6 +57,7 @@ export const Footer = () => {
             </div>
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
+                    <h1>About Us</h1>
                     <Link to='/sign-up'> How it works</Link>
                     <Link to='/'> Testimonies</Link>
                     <Link to='/'> Careers</Link>
@@ -61,11 +67,12 @@ export const Footer = () => {
             </div>
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
+                    <h1>Careers</h1>
                     <Link to='/sign-up'> How it works</Link>
                     <Link to='/'> Testimonies</Link>
                     <Link to='/'> Careers</Link>
                     <Link to='/'> Investors</Link>
-                    <Link to='/'> Terms of Service</Link>
+                    <Link to='/' > Terms of Service</Link>
                 </div>
             </div>
         </div>

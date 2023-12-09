@@ -1,8 +1,8 @@
 import React from 'react'
 import CardItems from './CardItems'
-import './card.css'
+import './card.css';
 function Cards() {
-  return (
+return (
     <div className='cards'>
     
     <h1>Check Out The Following Destinations</h1>
@@ -40,12 +40,27 @@ function Cards() {
                 path='/products'
                 />
             </ul>
+            <ul className="cards__items">
+                <CardItems 
+                src='images/img-9.jpg'
+                text='Explore the hidden waterfalls'
+                label='Adveture'
+                path='/products'
+                />
+            </ul>
+            <ul className="cards__items">
+                <CardItems 
+                src='images/img-9.jpg'
+                text='Explore the hidden waterfalls'
+                label='Adveture'
+                path='/products'
+                />
+            </ul>
 
         </div>
     </div>
-
     </div>
-  )
+)
 }
 
 export default Cards

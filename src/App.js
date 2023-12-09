@@ -8,7 +8,6 @@ import { Product } from './components/pages/Product';
 function App() {
   return (
     <div className="App">
-      <h1>james</h1>
       <Router>
         <NavBar/>
         <Routes>

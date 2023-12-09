@@ -1,6 +1,6 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background-color: gainsboro;
   }
   
   h1 {
@@ -14,15 +14,19 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    
   }
   
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    display: flex;
+    flex-wrap: wrap;
+
   }
   
   .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
   
   .cards__item {

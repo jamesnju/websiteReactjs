@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './carditems.css';
+import './card.css';
 function CardItems(props) {
-  return (
+return (
     <>
         <li className="cards__item">
             <Link className="cards__item__link" to={props.path}>
@@ -15,7 +15,7 @@ function CardItems(props) {
             </Link>
         </li>
     </>
-  )
+)
 }
 
 export default CardItems

@@ -4,8 +4,7 @@ import '../App.css';
 import { Button } from './Button';
 function Hero() {
   return (
-    <div clasNames="hero-container" >Hero
-    
+    <div clasNames="hero-container" >
     <video src='/videos/video-2.mp4' 
     autoPlay loop muted/>
         <h1>ADVETURE AWAITS</h1>
